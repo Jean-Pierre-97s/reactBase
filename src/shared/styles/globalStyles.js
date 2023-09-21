@@ -1,4 +1,3 @@
-// eslint-disable-next-line import/no-extraneous-dependencies
 import styled, { createGlobalStyle } from 'styled-components';
 import { primaryColor, primaryDarkColor } from '../config/colors';
 

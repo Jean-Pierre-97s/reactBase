@@ -1,13 +1,16 @@
 import React from 'react';
-import Login from './pages/login';
+import { BrowserRouter } from 'react-router-dom';
 import GlobalStyle from './shared/styles/globalStyles';
+import Header from './components/header';
+import Routes from './routes';
 
 function App() {
   return (
-    <>
-      <Login />
+    <BrowserRouter>
+      <Header />
+      <Routes />
       <GlobalStyle />
-    </>
+    </BrowserRouter>
   );
 }
 

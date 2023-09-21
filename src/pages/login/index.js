@@ -12,7 +12,6 @@ export default function Login() {
       </Title>
 
       <Paragrafo>Lorem ipsum</Paragrafo>
-      <a href="">Link</a>
 
       <button type="button">Enviar</button>
     </Container>
